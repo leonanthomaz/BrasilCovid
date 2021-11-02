@@ -1,0 +1,146 @@
+.main{
+    background-image: url(../img/virus-4835301_1920.jpg);
+    height: 100vh;
+}
+
+.form-header span {
+    color: rgb(4, 211, 97);
+}
+
+.box-options{
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+
+}
+
+
+#form-page {
+    width: 100vw;
+    color: #e8e8e9;
+}
+
+#form-page header.form-header a {
+    text-decoration: none!important;
+    color: #e8e8e9;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+
+main.form-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: border 0.2s;
+    max-width: 500px;
+}
+
+
+main.form-wrapper:hover {
+    border: 2px solid rgb(4, 211, 97);
+} 
+
+
+main.form-wrapper select {
+    
+    padding: 5px 20px 5px;
+    width: 140px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(241, 245, 9, 0.815);
+    color: #0a0186;
+    font-weight: 700;
+    font-size: 15px; 
+
+ }
+
+ main.form-wrapper select:hover {
+     cursor: pointer;
+ }
+
+ .enviar {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px 5px;
+    border-radius: 25px;
+    background-color: rgb(5, 17, 128);
+    
+    }
+
+ .enviar:hover{
+     background-color:  #059947;
+     border: 2px solid  #059947;
+     cursor: pointer;
+ }
+
+main.content-wrapper {
+
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: border 0.2s;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+main.content-wrapper:hover {
+    border: 2px solid rgb(4, 211, 97);
+} 
+
+.content-wrapper button{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 140px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px 5px;
+    border-radius: 25px;
+    background-color: rgb(5, 17, 128);
+}
+
+.backBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    background-color: rgba(255, 251, 5, 0.788);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backBtn:hover {
+    background-color: #059947;
+}
+
+@media (max-width:760px){
+ 
+}
